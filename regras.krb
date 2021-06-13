@@ -1,0 +1,35 @@
+is_acid
+    use situacao_efluente(efluente_acido, $ans)
+    when
+        questoes.ph_efluente($ans)
+        check $ans < 5
+
+is_base
+    use situacao_efluente(efluente_base, $ans)
+    when
+        questoes.ph_efluente($ans)
+        check $ans > 9
+
+is_ok
+    use situacao_efluente(efluente_ok, $ans)
+    when
+        questoes.ph_efluente($ans)
+        check $ans >= 5
+        check $ans <= 9
+
+ph_invalido
+    use valida_ph_alvo(pH_invalido, $ans)
+    when
+        questoes.ph_alvo($ans)
+        check $ans < 5 or $ans > 9
+
+ph_valido
+    use valida_ph_alvo(ph_valido, $ans)
+    when
+        questoes.ph_alvo($ans)
+        check $ans >= 5 and $ans <= 9
+
+vazao_tanque
+    use vazao($ans)
+    when
+        fatos.vazaoTanque($ans)

@@ -1,0 +1,23 @@
+ph_efluente($ans)
+	Qual o pH do efluente?
+	---
+	$ans = float
+
+ph_alvo($ans)
+    Qual o pH alvo para correcao?
+    ---
+    $ans = float
+
+base($ans)
+    Qual produto deseja aplicar ao efluente?
+    ---
+    $ans = select_1
+		1: Hidroxido de Sodio
+		2: Hidroxido de Calcio
+
+acid($ans)
+    Qual produto deseja aplicar ao efluente?
+    ---
+    $ans = select_1
+		1: Acido Sulfurico
+		2: Acido Nitrico

@@ -1,0 +1,9 @@
+hid_sodio
+    use componente_sodio($name, $ph)
+    when
+        fatos.hidSodio($name, $ph)
+
+hid_calcio
+    use componente_calcio($name, $ph)
+    when
+        fatos.hidCalcio($name, $ph)

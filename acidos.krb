@@ -1,0 +1,9 @@
+ac_sulf
+    use componente_sulf($name, $ph)
+    when
+        fatos.acSulfurico($name, $ph)
+
+ac_nit
+    use componente_nit($name, $ph)
+    when
+        fatos.acNitrico($name, $ph)

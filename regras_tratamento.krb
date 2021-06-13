@@ -1,0 +1,23 @@
+tratamento_hid_sodio
+    use tratamento_base(Hidroxido_de_sodio)
+    when
+        questoes.base($ans)
+        check $ans in (1,)
+
+tratamento_hid_calcio
+    use tratamento_base(Hidroxido_de_calcio)
+    when
+        questoes.base($ans)
+        check $ans in (2,)
+
+tratamento_ac_sulf
+    use tratamento_acido(Acido_Sulfurico)
+    when
+        questoes.acid($ans)
+        check $ans in (1,)
+
+tratamento_ac_nit
+    use tratamento_acido(Acido_Nitrico)
+    when
+        questoes.acid($ans)
+        check $ans in (2,)

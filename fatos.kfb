@@ -1,0 +1,8 @@
+# Componente(nome, ph)
+hidSodio('Hidroxido_de_Sodio', 12.7)
+hidCalcio('Hidroxido_de_Calcio', 12.6)
+acSulfurico('Acido_Sulfurico', 1.1)
+acNitrico('Acido_Nitrico', 1.5)
+
+# Vazao tanque
+vazaoTanque(30.0)
