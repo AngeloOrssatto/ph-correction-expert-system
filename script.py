@@ -1,4 +1,4 @@
-import driver_2
+import driver
 
 print('|----------------------------------------------------------------------------|')
 print('|---------- SISTEMA ESPECIALISTA PARA CORRECAO DE pH DE EFLUENTES -----------|')
@@ -11,4 +11,4 @@ print('| Objetivo do sistema é calcular uma vazao para mistura de uma substanci
 print('| ou alcalina para correcao do pH de efluentes no estagio final do tratamento|')
 print('| de esgoto                                                                  |')
 
-driver_2.main()
+driver.main()
